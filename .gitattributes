@@ -1,0 +1,5 @@
+*.c diff=euc-jp
+*.h diff=euc-jp
+*.cfg diff=euc-jp
+*.config diff=euc-jp
+Makfile diff=euc-jp
