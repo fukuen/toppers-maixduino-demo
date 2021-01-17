@@ -933,6 +933,8 @@ i2s_init(ID portid, I2S_Init_t *ii2s)
 		dma_init(hdma);
 		hi2s->hdmarx = hdma;
 	}
+
+	uint32_t freq = i2s_set_sample_rate(hi2s, ii2s->sample_rate);
 	return hi2s;
 }
 
